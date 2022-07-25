@@ -28,4 +28,4 @@ svr_vgg16.plot()
 ``` 
 ![vgg16 svr](https://github.com/danmlr/svr/blob/main/vgg16.png)
 
-
+![mnis training](https://github.com/danmlr/svr/blob/main/mnist_learning.gif)
