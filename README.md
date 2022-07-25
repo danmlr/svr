@@ -28,4 +28,6 @@ svr_vgg16.plot()
 ``` 
 ![vgg16 svr](https://github.com/danmlr/svr/blob/main/vgg16.png)
 
+## SVR of fully connected network during training on MNIST
+
 ![mnis training](https://github.com/danmlr/svr/blob/main/mnist_learning.gif)
