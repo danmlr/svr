@@ -21,7 +21,7 @@ import torch
 from svr import SVR
 
 model = torch.hub.load('pytorch/vision:v0.10.0', 'vgg16',pretrained=True)
-weights= [ w.detach() for w in model.parameters() ]
+weights = [ w.detach() for w in model.parameters() ]
 svr_vgg16 = SVR(weights) 
 
 svr_vgg16.plot()
