@@ -24,4 +24,4 @@ svr_vgg16 = SVR(weights)
 
 svr_vgg16.plot()
 ``` 
-
+![vgg16 svr](https://github.com/danmlr/svr/blob/main/vgg16.png)
