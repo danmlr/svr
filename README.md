@@ -8,7 +8,8 @@ In a terminal run :
 ```bash
 git clone https://github.com/danmlr/svr.git
 cd svr 
-pip install -r requirements.txt```
+pip install -r requirements.txt
+```
 
 
 ## Minimal working example 
