@@ -1,6 +1,8 @@
 # Singular Value Representation 
 
-This code implements the theoretical framework developped by D. Meller and N. Berkouk (citation) which allows to investigate the inner strurcture of neural networks. 
+This code implements the theoretical framework developped by D. Meller and N. Berkouk (citation) which allows to investigate the inner structure of neural networks. 
+All the essential code and documentation can be found in the file svr.py. One example notebook is also provided.  
+Some of the expriments we presented in the original paper can be reproduced easily by executing the 'experiments' notebbok. 
 
 ## Set up 
 
@@ -25,3 +27,5 @@ svr_vgg16 = SVR(weights)
 svr_vgg16.plot()
 ``` 
 ![vgg16 svr](https://github.com/danmlr/svr/blob/main/vgg16.png)
+
+
