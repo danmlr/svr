@@ -2,7 +2,7 @@
 
 This code implements the theoretical framework developped by D. Meller and N. Berkouk (citation) which allows to investigate the inner structure of neural networks. 
 All the essential code and documentation can be found in the file svr.py. One example notebook is also provided.  
-Some of the expriments we presented in the original paper can be reproduced easily by executing the 'experiments' notebbok. 
+Some of the expriments we presented in the original paper can be reproduced easily by executing the 'experiments' notebook. 
 
 ## Set up 
 
