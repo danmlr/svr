@@ -257,7 +257,7 @@ class SVR():
         """ Return an array with the same shape as 
         self.S[layer] which contains coefficients between 0 and 1. 
 
-        Each coefficient corresponds to the importance of each mode
+        Each coefficient corresponds to the importance of each spectral neuron
         measured by the max deviation of its cumulative scalar product 
         distribution with respect to modes of the next layer. """
 
