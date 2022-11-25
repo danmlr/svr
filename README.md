@@ -11,9 +11,12 @@ In a terminal run :
 git clone https://github.com/danmlr/svr.git
 cd svr 
 pip install -r requirements.txt
+```
+Then install torchvision, (ideally with conda) : 
+```bash
 conda install torchvision -c pytorch
 ```
-
+Instructions for other setups can be found here : https://pypi.org/project/torchvision/
 
 ## Minimal working example 
 
