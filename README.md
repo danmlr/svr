@@ -11,6 +11,7 @@ In a terminal run :
 git clone https://github.com/danmlr/svr.git
 cd svr 
 pip install -r requirements.txt
+conda install torchvision -c pytorch
 ```
 
 
