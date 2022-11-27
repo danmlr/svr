@@ -332,7 +332,7 @@ class SVR():
         """Compute the internal dimensions associated to self.adjacency[layer].""" 
 
         a = self.adjacency[layer]
-        wa =(self.adjacency[layer]).cumsum(dim=0).cumsum(dim=1)
+        wa = a.cumsum(dim=0).cumsum(dim=1)
         ij = torch.ones(wa.shape).cumsum(dim=0).cumsum(dim=1)
         n = self.arch[layer+1]
         res = (n*wa-ij)
