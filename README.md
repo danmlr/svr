@@ -1,6 +1,6 @@
 # Singular Value Representation 
 
-This code implements the theoretical framework developped by D. Meller and N. Berkouk [(paper link)]('https://arxiv.org/abs/2302.08183') which allows to investigate the inner structure of neural networks. 
+This code implements the theoretical framework developped by D. Meller and N. Berkouk (https://arxiv.org/abs/2302.08183) which allows to investigate the inner structure of neural networks. 
 All the essential code and documentation can be found in the file svr.py. One example notebook is also provided.  
 Some of the expriments we presented in the original paper can be reproduced easily by executing the 'experiments' notebook. 
 
